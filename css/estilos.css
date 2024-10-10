@@ -22,6 +22,17 @@
     color: white;
 }
 
+.peli{
+	color: #100a1f;
+	font-family: "Hanken Grotesk", sans-serif;
+	font-size: 2rem;
+}
+.peli:hover{
+color: white;
+}
+
+
+
 
   body {
 	font-family: 'Montserrat', sans-serif;
