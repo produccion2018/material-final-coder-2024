@@ -1,6 +1,6 @@
 function modoOscuro() {
-    let main_body = document.body;
-    main_body.classList.toggle("dark-mode");
+    let mauro_body = document.body;
+    mauro_body.classList.toggle("dark-mode");
 
     // compruevo si esta marcado
     if (document.getElementById('coderHouse').checked) {

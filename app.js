@@ -1,4 +1,4 @@
-let pagina = 1;
+let pagina = 1; // para que cuando el usuario ingrese a ala pagina empiece desde uno
 const btnAnterior = document.getElementById('btnAnterior');
 const btnSiguiente = document.getElementById('btnSiguiente');
 
