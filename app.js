@@ -36,7 +36,7 @@ const cargarPeliculas = async() => {
 				`;
 			});
 
-			document.getElementById('contenedor').innerHTML = peliculas;
+			document.getElementById('pinto').innerHTML = peliculas;
 
 		} else if(respuesta.status === 401){
 			console.log('Pusiste la llave mal');
