@@ -106,7 +106,127 @@ color: white;
 
 
 
-  /* modo oscuro */
+  /* responsive*/
+  * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Nav */
+.navbar {
+	font-family: "Hanken Grotesk", sans-serif;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #000000;
+	background-color: #9f3647;
+	padding: 10px;
+}
+
+.navbar-brand {
+	font-size: 1.8rem;
+	color: white;
+}
+
+.navbar-brand:hover {
+	color: #ffd1dc;
+}
+
+.nav-link {
+	color: white;
+}
+
+.nav-link:hover {
+	color: #ffd1dc;
+}
+
+.peli {
+	color: #100a1f;
+	font-family: "Hanken Grotesk", sans-serif;
+	font-size: 2rem;
+}
+
+.peli:hover {
+	color: white;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #e0e0e0;
+	color: #1d1d1d;
+}
+
+/* Contenedor para computadoras y móviles */
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto;
+	display: grid;
+	gap: 20px;
+}
+
+/* Cambia las columnas según el tamaño de pantalla */
+@media (min-width: 768px) {
+	.contenedor {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (min-width: 992px) {
+	.contenedor {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+/* Estilo de cada película */
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	transition: all 0.3s ease;
+}
+
+.contenedor .pelicula .poster:hover {
+	transform: scale(1.1);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	opacity: 0.8;
+}
+
+/* Paginación */
+.paginacion {
+	position: fixed;
+	bottom: 0;
+	background: #100a1f;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+}
+
+.paginacion a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #9f3647;
+	font-weight: bold;
+}
+
+.paginacion a:hover {
+	background-color: #ffd1dc;
+	color: #100a1f;
+}
+
 
 
 
